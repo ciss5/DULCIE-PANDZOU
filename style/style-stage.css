@@ -1,0 +1,92 @@
+/* NAVBAR STYLES */
+
+.navbar {
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+    background-color: #1c1c1c !important;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.nav-custom {
+    color: #ddd !important;
+    margin: 0 10px;
+    padding: 8px 15px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+.nav-custom:hover,
+.nav-custom.active {
+    background-color: #0d6efd;
+    color: white !important;
+    transform: scale(1.05);
+}
+
+.navbar-toggler {
+    border-color: #fff;
+}
+
+/* FOOTER PROPRE ET ÉLÉGANT */
+.footer-pro {
+    background-color: #1c1c1e;
+    color: #ccc;
+    font-size: 0.95rem;
+    border-top: 2px solid #0d6efd;
+}
+
+.social-icons .social-link {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 1.3rem;
+    color: #ccc;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icons .social-link:hover {
+    color: #0d6efd;
+    transform: translateY(-3px);
+}
+
+.footer-mention {
+    color: #aaa;
+    font-size: 0.85rem;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+.footer-mention:hover {
+    color: #fff;
+}
+.stage-hero {
+    background-image: url('../img/background.jpg'); /* ajoute une image dans ton dossier images */
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    position: relative;
+}
+
+.stage-hero::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.stage-hero .container {
+    position: relative;
+    z-index: 2;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+}
+
+.card ul {
+    padding-left: 1.2rem;
+}

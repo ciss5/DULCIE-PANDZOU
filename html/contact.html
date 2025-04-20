@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact - Pandzou Dulcie</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- CSS personnalisé -->
+    <link rel="stylesheet" href="../style/style-contact.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#">DULCIE <span style="color:#0d6efd">PANDZOU</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto text-center">
+                <li class="nav-item">
+                    <a class="nav-link nav-custom active" href="index.html">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-custom" href="profil.html">Profil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-custom" href="formation.html">Formation</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-custom" href="stage.html">Stages</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-custom" href="projets.html">Projets</a>
+                </li>
+
+                <!-- 🧩 Dropdown Epreuves -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle nav-custom" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Épreuves
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark bg-dark" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item text-light" href="epreuveE4.html">Épreuve E4</a></li>
+                        <li><a class="dropdown-item text-light" href="epreuveE6.html">Épreuve E6</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link nav-custom" href="veille.html">Veille</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-custom" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<!-- Formulaire de contact -->
+<section class="contact-section py-5">
+    <div class="container">
+        <h2 class="text-center section-title mb-5">Me Contacter</h2>
+        <div class="row g-4">
+
+            <!-- Infos contact -->
+            <div class="col-md-5">
+                <div class="info-box p-4 shadow-sm rounded bg-light h-100">
+                    <h5><i class="fas fa-map-marker-alt me-2 text-primary"></i> Adresse</h5>
+                    <p>Lycée Robert Schuman, Metz, France</p>
+
+                    <h5><i class="fas fa-envelope me-2 text-primary"></i> Email</h5>
+                    <p>pandzou.dulcie@example.com</p>
+
+                    <h5><i class="fas fa-phone me-2 text-primary"></i> Téléphone</h5>
+                    <p>+33 6 12 34 56 78</p>
+                </div>
+            </div>
+
+            <!-- Formulaire -->
+            <div class="col-md-7">
+                <form class="p-4 shadow-sm rounded bg-white">
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="prenom" class="form-label">Prénom</label>
+                            <input type="text" class="form-control" id="prenom" placeholder="Votre prénom">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="nom" class="form-label">Nom</label>
+                            <input type="text" class="form-control" id="nom" placeholder="Votre nom">
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="votre@email.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="sujet" class="form-label">Sujet</label>
+                        <input type="text" class="form-control" id="sujet" placeholder="Sujet de votre message">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="5" placeholder="Écrivez votre message ici..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100"><i class="fas fa-paper-plane me-2"></i>Envoyer</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer simple -->
+<footer class="footer-pro py-4 mt-5">
+    <div class="container text-center">
+
+        <div class="mb-3 social-icons">
+            <a href="https://instagram.com" target="_blank" class="social-link" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://facebook.com" target="_blank" class="social-link" aria-label="Facebook">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://tiktok.com" target="_blank" class="social-link" aria-label="TikTok">
+                <i class="fab fa-tiktok"></i>
+            </a>
+            <a href="https://linkedin.com" target="_blank" class="social-link" aria-label="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com" target="_blank" class="social-link" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+
+        <p class="mb-1 text-muted">&copy; 2025 Pandzou Dulcie - Portfolio BTS SIO SISR</p>
+        <a href="mention-legale.html" class="footer-mention">Mentions légales</a>
+
+    </div>
+</footer>
+
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

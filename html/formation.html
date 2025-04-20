@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Formation - Portfolio Pandzou Dulcie</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- CSS personnalisé -->
+    <link rel="stylesheet" href="../style/style-formation.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navbar reprise depuis index.html -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#">DULCIE <span style="color:#0d6efd">PANDZOU</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto text-center">
+                <li class="nav-item">
+                    <a class="nav-link nav-custom active" href="index.html">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-custom" href="profil.html">Profil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-custom" href="formation.html">Formation</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-custom" href="stage.html">Stages</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-custom" href="projets.html">Projets</a>
+                </li>
+
+                <!-- 🧩 Dropdown Epreuves -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle nav-custom" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Épreuves
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark bg-dark" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item text-light" href="epreuveE4.html">Épreuve E4</a></li>
+                        <li><a class="dropdown-item text-light" href="epreuveE6.html">Épreuve E6</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link nav-custom" href="veille.html">Veille</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-custom" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Présentation de l'école -->
+<section class="ecole-section">
+    <div class="container text-center">
+        <h2 class="section-title">Lycée Robert Schuman - Metz</h2>
+        <p class="lead">Le lycée Robert Schuman de Metz est un établissement réputé pour ses formations technologiques et professionnelles, notamment en informatique, électronique et réseaux. C'est ici que j'effectue mon BTS SIO, spécialité SISR.</p>
+        <img src="../img/logo-school.jpg" alt="Lycée Robert Schuman Metz" class="img-fluid rounded shadow mb-4" style="max-height: 350px;">
+
+        <!-- Google Map -->
+        <div class="map-container mt-3 mb-5">
+            <iframe src="https://www.google.com/maps?q=lycée%20robert%20schuman%20metz&output=embed" width="100%" height="300" style="border:0;" allowfullscreen loading="lazy"></iframe>
+        </div>
+    </div>
+</section>
+
+<!-- Présentation BTS SIO -->
+<section class="bts-section bg-light py-5">
+    <div class="container">
+        <h2 class="text-center section-title"><i class="fas fa-laptop-code me-2"></i>Le BTS SIO</h2>
+        <p class="text-center">Le BTS Services Informatiques aux Organisations est un diplôme en deux ans permettant de se former aux métiers de l’informatique. Il comporte deux spécialités : SISR (réseaux et systèmes) et SLAM (développement).</p>
+    </div>
+</section>
+
+<!-- Les deux options -->
+<section class="options-section py-5">
+    <div class="container">
+        <div class="row g-4">
+
+            <!-- SISR -->
+            <div class="col-md-6">
+                <div class="card option-card sisr shadow-sm h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-network-wired fa-3x mb-3 text-primary"></i>
+                        <h4 class="card-title">Option SISR</h4>
+                        <p class="card-text">L’option SISR (Solutions d’Infrastructure, Systèmes et Réseaux) forme à l’administration des réseaux, des systèmes et à la cybersécurité. C’est cette option que j’ai choisie pour me spécialiser dans le domaine de l’infrastructure informatique.</p>
+                        <span class="badge bg-primary">Ma spécialité</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SLAM -->
+            <div class="col-md-6">
+                <div class="card option-card slam shadow-sm h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-code fa-3x mb-3 text-danger"></i>
+                        <h4 class="card-title">Option SLAM</h4>
+                        <p class="card-text">L’option SLAM (Solutions Logicielles et Applications Métiers) est orientée vers le développement d’applications web, mobiles ou logicielles. Les étudiants apprennent à coder, concevoir et tester des solutions adaptées aux entreprises.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Footer simple -->
+<footer class="footer-pro py-4 mt-5">
+    <div class="container text-center">
+
+        <div class="mb-3 social-icons">
+            <a href="https://instagram.com" target="_blank" class="social-link" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://facebook.com" target="_blank" class="social-link" aria-label="Facebook">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://tiktok.com" target="_blank" class="social-link" aria-label="TikTok">
+                <i class="fab fa-tiktok"></i>
+            </a>
+            <a href="https://linkedin.com" target="_blank" class="social-link" aria-label="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com" target="_blank" class="social-link" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+
+        <p class="mb-1 text-muted">&copy; 2025 Pandzou Dulcie - Portfolio BTS SIO SISR</p>
+        <a href="mention-legale.html" class="footer-mention">Mentions légales</a>
+
+    </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

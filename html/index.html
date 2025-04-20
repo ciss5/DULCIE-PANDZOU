@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Pandzou Dulcie</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../style/style.css" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#">DULCIE <span style="color:#0d6efd">PANDZOU</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto text-center">
+                <li class="nav-item">
+                    <a class="nav-link nav-custom active" href="index.html">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-custom" href="profil.html">Profil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-custom" href="formation.html">Formation</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-custom" href="stage.html">Stages</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-custom" href="projets.html">Projets</a>
+                </li>
+
+                <!-- 🧩 Dropdown Epreuves -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle nav-custom" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Épreuves
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark bg-dark" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item text-light" href="epreuveE4.html">Épreuve E4</a></li>
+                        <li><a class="dropdown-item text-light" href="epreuveE6.html">Épreuve E6</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link nav-custom" href="veille.html">Veille</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-custom" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<!-- Présentation -->
+<section class="hero-section">
+    <div>
+        <h1>Bienvenue sur mon Portfolio</h1>
+        <p>Je suis Pandzou Dulcie, étudiant en BTS SIO - SISR</p>
+    </div>
+</section>
+
+<!-- Compétences -->
+<section id="competences" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-4">Mes Compétences</h2>
+
+        <div id="carouselCompetences" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000" >
+            <div class="carousel-inner">
+
+                <!-- Compétence 1 -->
+                <div class="carousel-item active text-center">
+                    <img src="../img/glpi.jpg" class="d-block mx-auto competence-img" alt="glpi">
+                    <h5 class="mt-3">GLPI</h5>
+                </div>
+
+                <!-- Compétence 2 -->
+                <div class="carousel-item text-center">
+                    <img src="../img/sisco.jpg" class="d-block mx-auto competence-img" alt="sisco">
+                    <h5 class="mt-3">Sisco Paacket Tracer </h5>
+                </div>
+
+                <!-- Compétence 3 -->
+                <div class="carousel-item text-center">
+                    <img src="../img/windows.jpg" class="d-block mx-auto competence-img" alt="windowsserver">
+                    <h5 class="mt-3">Windows Server</h5>
+                </div>
+
+                <!-- Compétence 4 -->
+                <div class="carousel-item text-center">
+                    <img src="../img/lunix.png" class="d-block mx-auto competence-img" alt="Linux / Réseaux">
+                    <h5 class="mt-3">Linux / Réseaux</h5>
+                </div>
+
+                <!-- Compétence 5 -->
+                <div class="carousel-item text-center">
+                    <img src="../img/vmware.jpg" class="d-block mx-auto competence-img" alt="vmwere">
+                    <h5 class="mt-3">VmWare</h5>
+                </div>
+                <!-- Compétence 6 -->
+                <div class="carousel-item text-center">
+                    <img src="../img/virtualbox.jpg" class="d-block mx-auto competence-img" alt="virtualbox">
+                    <h5 class="mt-3">Virtualbox</h5>
+                </div>
+
+            </div>
+
+            <!-- Controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselCompetences" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselCompetences" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </div>
+</section>
+
+<!-- Certifications -->
+<section class="certification-section py-5">
+    <div class="container">
+        <h2 class="text-center mb-5">Mes Certifications</h2>
+
+        <div class="row g-4 justify-content-center">
+
+            <!-- RGPD Certification -->
+            <div class="col-md-5">
+                <div class="card shadow-lg border-0 h-100">
+                    <img src="../img/rgpd.jpg" class="card-img-top" alt="Certification RGPD">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Certification RGPD</h5>
+                        <p class="card-text">Comprendre la protection des données personnelles et le Règlement Général sur la Protection des Données.</p>
+                        <div class="d-flex justify-content-center gap-3">
+                            <a href="../docs/rgpd.pdf" class="btn btn-primary" target="_blank">Voir le PDF</a>
+                            <a href="https://www.cnil.fr/fr/cnil-certification-rgpd" class="btn btn-outline-primary" target="_blank">Site Officiel</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ANSSI Certification -->
+            <div class="col-md-5">
+                <div class="card shadow-lg border-0 h-100">
+                    <img src="../img/certification-secnum-anssi.jpg" class="card-img-top" alt="Certification ANSSI">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Certification ANSSI</h5>
+                        <p class="card-text">Initiation à la cybersécurité avec l'Agence Nationale de la Sécurité des Systèmes d’Information.</p>
+                        <div class="d-flex justify-content-center gap-3">
+                            <a href="../docs/anssi.pdf" class="btn btn-primary" target="_blank">Voir le PDF</a>
+                            <a href="https://www.ssi.gouv.fr/" class="btn btn-outline-primary" target="_blank">Site Officiel</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Footer moderne et sobre -->
+<footer class="footer-pro py-4 mt-5">
+    <div class="container text-center">
+
+        <div class="mb-3 social-icons">
+            <a href="https://instagram.com" target="_blank" class="social-link" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://facebook.com" target="_blank" class="social-link" aria-label="Facebook">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://tiktok.com" target="_blank" class="social-link" aria-label="TikTok">
+                <i class="fab fa-tiktok"></i>
+            </a>
+            <a href="https://linkedin.com" target="_blank" class="social-link" aria-label="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com" target="_blank" class="social-link" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+
+        <p class="mb-1 text-muted">&copy; 2025 Pandzou Dulcie - Portfolio BTS SIO SISR</p>
+        <a href="mention-legale.html" class="footer-mention">Mentions légales</a>
+
+    </div>
+</footer>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../scripte/script.js" defer></script>
+</body>
+</html>

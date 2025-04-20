@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Epreuves</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- CSS personnalisé -->
+    <link rel="stylesheet" href="../style/style-epreuve.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#">DULCIE <span style="color:#0d6efd">PANDZOU</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto text-center">
+                <li class="nav-item">
+                    <a class="nav-link nav-custom " href="index.html">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-custom" href="profil.html">Profil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-custom" href="formation.html">Formation</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-custom" href="stage.html">Stages</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-custom" href="projets.html">Projets</a>
+                </li>
+
+                <!-- 🧩 Dropdown Epreuves -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle nav-custom active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Épreuves
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark bg-dark" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item text-light active" href="epreuveE4.html">Épreuve E4</a></li>
+                        <li><a class="dropdown-item text-light " href="epreuveE6.html">Épreuve E6</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link nav-custom" href="veille.html">Veille</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-custom" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Section d'introduction avec image de fond -->
+<section class="epreuve-hero d-flex align-items-center justify-content-center text-white text-center" data-aos="fade-down">
+    <div class="container">
+        <h1 class="display-4 fw-bold">Épreuve E4</h1>
+        <p class="lead">Support et mise à disposition de services informatiques</p>
+    </div>
+</section>
+
+<!-- Objectif de l'épreuve -->
+<section class="container py-5" data-aos="fade-up">
+    <h2 class="mb-4">1 – Objectif</h2>
+    <p>Cette épreuve vise à évaluer chez la personne candidate l’acquisition des compétences décrites dans le bloc de compétences « Support et mise à disposition de services informatiques », à savoir :</p>
+    <ul>
+        <li>Gérer le patrimoine informatique</li>
+        <li>Répondre aux incidents et demandes d’assistance et d’évolution</li>
+        <li>Développer la présence en ligne de l’organisation</li>
+        <li>Travailler en mode projet</li>
+        <li>Mettre à disposition des utilisateurs un service informatique</li>
+        <li>Organiser son développement professionnel</li>
+    </ul>
+</section>
+
+<!-- Modalités d'évaluation -->
+<section class="container py-5" data-aos="fade-up">
+    <h2 class="mb-4">2 – Modalités d’évaluation</h2>
+    <p><strong>Forme ponctuelle orale (durée 40 minutes) :</strong></p>
+    <ul>
+        <li>10 minutes maximum : présentation du parcours de professionnalisation et justification des modalités d’acquisition des compétences du bloc.</li>
+        <li>30 minutes : échange avec le jury pour expliciter et apprécier le parcours de professionnalisation et approfondir une ou plusieurs réalisations décrites dans le dossier numérique.</li>
+    </ul>
+    <p><strong>Contrôle en cours de formation :</strong></p>
+    <p>L’épreuve est organisée de la même façon que dans la forme ponctuelle. À l’issue des évaluations, l’équipe pédagogique adresse au jury la proposition de note sur 20 points accompagnée de la grille d’aide à l’évaluation renseignée.</p>
+</section>
+<!-- Tableaux de synthèse et Présentation PowerPoint -->
+<section class="container py-5" data-aos="fade-up">
+    <h2 class="mb-4">Documents complémentaires</h2>
+    <div class="d-flex flex-column flex-md-row gap-3">
+        <a href="docs/tableau_synthese.pdf" class="btn btn-outline-secondary" target="_blank">Tableaux de synthèse</a>
+        <a href="docs/presentation_e4.pdf" class="btn btn-outline-secondary" target="_blank">Présentation PowerPoint</a>
+    </div>
+</section>
+<!-- Projets PPE -->
+<section class="container py-5" data-aos="fade-up">
+    <h2 class="text-center mb-4">Projets Personnels</h2>
+    <p class="text-center mb-5">Voici quelques projets réalisés dans le cadre de ma formation, accessibles au format PDF :</p>
+
+    <div class="d-flex flex-column flex-md-row justify-content-center gap-4 flex-wrap text-center">
+        <a href="docs/projet1.pdf" class="btn btn-outline-primary btn-lg shadow-sm" target="_blank">
+            🔧 PPE N°1 - Projet Orange P50067
+        </a>
+        <a href="docs/projet2.pdf" class="btn btn-outline-success btn-lg shadow-sm" target="_blank">
+            🛡️ PPE N°2 - Contrôleur de domaine
+        </a>
+        <a href="docs/projet3.pdf" class="btn btn-outline-warning btn-lg shadow-sm" target="_blank">
+            💻 PPE N°3 - Gestion de parc informatique
+        </a>
+        <a href="docs/projet4.pdf" class="btn btn-outline-danger btn-lg shadow-sm" target="_blank">
+            📊 PPE N°4 - Supervision réseau
+        </a>
+    </div>
+</section>
+
+
+<!-- Footer simple -->
+<footer class="footer-pro py-4 mt-5">
+    <div class="container text-center">
+
+        <div class="mb-3 social-icons">
+            <a href="https://instagram.com" target="_blank" class="social-link" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://facebook.com" target="_blank" class="social-link" aria-label="Facebook">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://tiktok.com" target="_blank" class="social-link" aria-label="TikTok">
+                <i class="fab fa-tiktok"></i>
+            </a>
+            <a href="https://linkedin.com" target="_blank" class="social-link" aria-label="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com" target="_blank" class="social-link" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+
+        <p class="mb-1 text-muted">&copy; 2025 Pandzou Dulcie - Portfolio BTS SIO SISR</p>
+        <a href="mention-legale.html" class="footer-mention">Mentions légales</a>
+
+    </div>
+</footer>
+
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

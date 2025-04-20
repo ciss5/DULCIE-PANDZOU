@@ -1,0 +1,114 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+body {
+    font-family: "Segoe UI", sans-serif;
+    background-color: #f5f5f5;
+}
+/* NAVBAR STYLES */
+
+.navbar {
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+    background-color: #1c1c1c !important;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.nav-custom {
+    color: #ddd !important;
+    margin: 0 10px;
+    padding: 8px 15px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+.nav-custom:hover,
+.nav-custom.active {
+    background-color: #0d6efd;
+    color: white !important;
+    transform: scale(1.05);
+}
+
+.navbar-toggler {
+    border-color: #fff;
+}
+
+/* FOOTER PROPRE ET ÉLÉGANT */
+.footer-pro {
+    background-color: #1c1c1e;
+    color: #ccc;
+    font-size: 0.95rem;
+    border-top: 2px solid #0d6efd;
+}
+
+.social-icons .social-link {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 1.3rem;
+    color: #ccc;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icons .social-link:hover {
+    color: #0d6efd;
+    transform: translateY(-3px);
+}
+
+.footer-mention {
+    color: #aaa;
+    font-size: 0.85rem;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+.footer-mention:hover {
+    color: #fff;
+}
+
+.section-title {
+    color: #0d6efd;
+    font-weight: bold;
+    font-size: 2rem;
+    position: relative;
+}
+
+.section-title::after {
+    content: '';
+    width: 60px;
+    height: 4px;
+    background-color: #0d6efd;
+    display: block;
+    margin: 10px auto;
+    border-radius: 2px;
+}
+
+.project-card {
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+}
+
+.project-card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.project-card .btn {
+    margin-top: 10px;
+    background-color: #0d6efd;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.project-card .btn:hover {
+    background-color: #0056d2;
+}

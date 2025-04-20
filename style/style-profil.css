@@ -1,0 +1,129 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.presentation {
+    background: linear-gradient(120deg, #0d6efd, #0056d2);
+    padding: 80px 0;
+}
+/* NAVBAR STYLES */
+
+.navbar {
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+    background-color: #1c1c1c !important;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.nav-custom {
+    color: #ddd !important;
+    margin: 0 10px;
+    padding: 8px 15px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+.nav-custom:hover,
+.nav-custom.active {
+    background-color: #0d6efd;
+    color: white !important;
+    transform: scale(1.05);
+}
+
+.navbar-toggler {
+    border-color: #fff;
+}
+
+/* FOOTER PROPRE ET ÉLÉGANT */
+.footer-pro {
+    background-color: #1c1c1e;
+    color: #ccc;
+    font-size: 0.95rem;
+    border-top: 2px solid #0d6efd;
+}
+
+.social-icons .social-link {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 1.3rem;
+    color: #ccc;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icons .social-link:hover {
+    color: #0d6efd;
+    transform: translateY(-3px);
+}
+
+.footer-mention {
+    color: #aaa;
+    font-size: 0.85rem;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+.footer-mention:hover {
+    color: #fff;
+}
+
+.section-title {
+    font-size: 2rem;
+    color: #0d6efd;
+    position: relative;
+    font-weight: bold;
+}
+
+.section-title::after {
+    content: '';
+    width: 60px;
+    height: 4px;
+    background-color: #0d6efd;
+    display: block;
+    margin: 10px auto;
+    border-radius: 2px;
+}
+
+.timeline-vertical {
+    border-left: 3px solid #dee2e6;
+    margin-left: 15px;
+    position: relative;
+}
+
+.timeline-block {
+    position: relative;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+.timeline-icon {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: -38px;
+    top: 0;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.timeline-content {
+    padding: 10px 15px;
+    background: #fff;
+    border-left: 4px solid #0d6efd;
+    border-radius: 6px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.timeline-content h5 {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #0d6efd;
+}
